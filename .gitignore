@@ -1,0 +1,72 @@
+# MATLAB
+*.m~
+*.asv
+*.mex*
+*.o
+*.so
+*.a
+*.lib
+*.dll
+*.exe
+*.out
+
+# Simulink
+*.slx.autosave
+*.mdl.autosave
+slprj/
+sfprj/
+
+# Build artifacts
+build/
+dist/
+*.egg-info/
+
+# MATLAB project files
+.idea/
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*_temp.m
+*_old.m
+*.bak
+
+# IDE
+.vscode/
+.settings/
+*.sublime-project
+*.sublime-workspace
+
+# Data (large files)
+data/
+*.csv
+*.xlsx
+*.feather
+
+# Output
+output/
+results/
+plots/
+*.fig
+*.png
+*.pdf
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Research notes (optional)
+research/notes.txt
+research/private/
+
+# Node modules (if using npm)
+node_modules/
+package-lock.json
+
+# Python (if using Python integration)
+__pycache__/
+*.py[cod]
+*.egg
+venv/
+env/
